@@ -1,0 +1,35 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+  },
+  "extends": [
+    "airbnb",
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {},
+    "ecmaVersion": 12,
+    "sourceType": 'module',
+  },
+  "plugins": [],
+  "rules": {
+    "indent": [
+      "error",
+      2,
+      {
+        "MemberExpression": "off" ,
+        "ignoreComments": true
+      }
+    ],
+    "max-len": [
+      "error",
+      {
+        "code": 120,
+        "ignoreComments": true,
+        "ignoreUrls": true,
+        "ignoreTemplateLiterals": true
+      }
+    ],
+    "operator-linebreak": ["error", "after"],
+  },
+}
