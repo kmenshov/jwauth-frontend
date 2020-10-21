@@ -1,0 +1,22 @@
+{
+  "name": "jwauth",
+  "version": "0.0.1",
+  "description": "JWAuth",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmenshov/jwauth-frontend.git"
+  },
+  "author": "Kirill Menshov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kmenshov/jwauth-frontend/issues"
+  },
+  "homepage": "https://github.com/kmenshov/jwauth-frontend#readme"
+}
