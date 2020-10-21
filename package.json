@@ -7,8 +7,10 @@
     "test": "test"
   },
   "scripts": {
-    "test": "jest",
-    "babel": "babel"
+    "babel": "babel",
+    "build": "npx babel src --out-dir dist",
+    "start": "npx babel src --watch --out-dir dist",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
